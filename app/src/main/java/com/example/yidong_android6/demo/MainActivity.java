@@ -2,6 +2,7 @@ package com.example.yidong_android6.demo;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void shareSingleImage(View view) {
         Toast.makeText(this, "我是在develop", Toast.LENGTH_SHORT);
         Log.e("LOG", "YOU ARE A GABAGER");
+        //他们说快些一首情歌雅俗共赏
     }
 
     @Override
